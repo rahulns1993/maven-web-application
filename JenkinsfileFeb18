@@ -21,7 +21,7 @@ stage('sonarqubereport')
 sh "${mavenHome}/bin/mvn clean sonar:sonar"
 
 }
-
+/*
 stage('uploadArtifactIntoNexus')
 {
 sh "${mavenHome}/bin/mvn clean deploy"
@@ -33,7 +33,7 @@ sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@17
 
 
 }
-    
+*/    
     
     
 }//node
